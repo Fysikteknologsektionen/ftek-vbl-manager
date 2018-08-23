@@ -9,7 +9,7 @@ if( !current_user_can('manage_vbl_files') ) die();
 	
 ?>
 
-<div id='vbl-documents-manager-wrapper'>
+<div id='ftek-vbl-manager-wrapper'>
 
 </div>
 
@@ -18,7 +18,7 @@ if( !current_user_can('manage_vbl_files') ) die();
 PLUGINS_URL = '<?php echo plugins_url();?>';
 
 jQuery(document).ready(function(){
-	jQuery('#vbl-documents-manager-wrapper').elfinder({
+	jQuery('#ftek-vbl-manager-wrapper').elfinder({
 		url: ajaxurl,
 		customData:{action: 'connector2'}
 	});

@@ -91,17 +91,17 @@
 	color: white;
 }
 
-.vbl-documents-manager-shortcode-table{
+.ftek-vbl-manager-shortcode-table{
 	margin: 10px;
 	padding: 10px;
 }
 
-.vbl-documents-manager-shortcode-table td{
+.ftek-vbl-manager-shortcode-table td{
 	margin: 5px;
 	padding: 5px;
 }
 
-.vbl-documents-manager-shortcode-table-shortcode{
+.ftek-vbl-manager-shortcode-table-shortcode{
 	font-weight: bold;
 	font-size: 120%;
 }

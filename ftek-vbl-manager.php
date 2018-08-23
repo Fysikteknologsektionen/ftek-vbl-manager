@@ -4,7 +4,7 @@ Plugin Name: VBL Documents Manager
 Author Name: Ingrid Strandberg
 License: GPLv2
 Description: Hantera Veckobladeriets filer (kurssidor)
-GitHub Plugin URI: Fysikteknologsektionen/ftek-vbl-documents-manager
+GitHub Plugin URI: Fysikteknologsektionen/ftek-vbl-manager
 */
 
  /** 
@@ -192,4 +192,4 @@ if (!function_exists('logger'))   {
   }
 }
 global $FileManager2;
-$FileManager2 = new FM2('VBL Documents Manager');
+$FileManager2 = new FM2('Ftek VBL Manager');

@@ -28,7 +28,7 @@
 	 * */
 	
 	$admin_menu_pages = array(
-		'files' => array( 'files', ABSPATH . 'wp-content' . DS . 'plugins' . DS . 'vbl-documents-manager' . DS . 'views' . DS . 'admin' . DS . 'files.php', 'Files'),
+		'files' => array( 'files', ABSPATH . 'wp-content' . DS . 'plugins' . DS . 'ftek-vbl-manager' . DS . 'views' . DS . 'admin' . DS . 'files.php', 'Files'),
 	);
 	
 	$admin_menu_pages = apply_filters('fm_admin_menu_sub_pages', $admin_menu_pages);
