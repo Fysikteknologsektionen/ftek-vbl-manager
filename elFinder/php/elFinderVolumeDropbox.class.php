@@ -1,4 +1,3 @@
-<?php if(!defined('ABSPATH')) die(); // Security check?>
 <?php
 
 elFinder::$netDrivers['dropbox'] = 'Dropbox';
@@ -632,7 +631,7 @@ class elFinderVolumeDropbox extends elFinderVolumeDriver {
 		
 		if (!empty($raw['url'])) {
 			$stat['url'] = $raw['url'];
-		} else {
+		} else if (! $this->disabledGetUrl) {
 			$stat['url'] = '1';
 		}
 		if (isset($raw['width'])) $stat['width'] = $raw['width'];
